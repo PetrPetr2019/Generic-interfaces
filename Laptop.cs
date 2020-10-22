@@ -4,7 +4,7 @@ using System.Text;
 
 namespace StaffSport
 {
-    class Laptop : ISwitchable<int>
+    public class Laptop : ISwitchable<int>
     {
         public void SwitchTVOf()
         {
