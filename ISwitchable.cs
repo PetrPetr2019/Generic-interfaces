@@ -4,9 +4,13 @@ using System.Text;
 
 namespace StaffSport
 {
-    interface ISwitchable<T>
-    {
-        void SwitchTVOf();
-        void SwitchTVOn();
-    }
+
+    #region реализация типизированного интерфейса ISwitchhable<T>
+
+    //interface ISwitchable<T>
+    //{
+    //    void SwitchTVOf();
+    //    void SwitchTVOn();
+    //}
+#endregion
 }
